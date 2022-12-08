@@ -16,7 +16,7 @@ module.exports = {
         // 1) pass a special global variable '__dirname' which tells us the absolute path to the currently executing file (webpack.config.js)
         // 2) pass a string value representing output directory name
         path: path.resolve(__dirname, 'dist'),
-        // specify assets folder
+        // specify assets folder for Webpack devServer
         publicPath: "/dist"
     },
     // this tells Webpack to inline generated sourcemaps into resulting bundle file
