@@ -1,8 +1,8 @@
-import { Component } from "./base-component.js";
-import { Validatable, validate } from "../utils/validation.js";
-import { AutoBind } from "../decorators/autobind.js";
-import { projectState } from "../state/project-state.js";
-// let's create a class for project-input template from index.html (it's a <template> tag, so it is not rendered by browser)
+import { Component } from "./base-component";
+import { Validatable, validate } from "../utils/validation";
+import { AutoBind } from "../decorators/autobind";
+import { projectState } from "../state/project-state";
+// let's create a class for project-input template from index.html (it's a <template> tag, so it is not rendered by browser )
 
 export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {
   titleInput: HTMLInputElement;

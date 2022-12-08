@@ -1,6 +1,6 @@
-import { ProjectInput } from "./components/project-input.js";
-import { InsertPosition } from "./constants/constants.js";
-import { ProjectsList } from "./components/project-list.js";
+import { ProjectInput } from "./components/project-input";
+import { InsertPosition } from "./constants/constants";
+import { ProjectsList } from "./components/project-list";
 // DEMO PROJECT (active and finished projects list)
 // What we implement:
 // - rendering of form with data for projects (title, description, number of people) with validation

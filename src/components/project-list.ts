@@ -1,10 +1,10 @@
-import { Component } from "./base-component.js";
-import { DragTarget } from "../model/drag-drop.js";
-import { Project, ProjectStatus } from "../model/project.js";
-import { projectState } from "../state/project-state.js";
-import { AutoBind } from "../decorators/autobind.js";
-import { ProjectListItem } from "./project-list-item.js";
-import { InsertPosition } from "../constants/constants.js";
+import { Component } from "./base-component";
+import { DragTarget } from "../model/drag-drop";
+import { Project, ProjectStatus } from "../model/project";
+import { projectState } from "../state/project-state";
+import { AutoBind } from "../decorators/autobind";
+import { ProjectListItem } from "./project-list-item";
+import { InsertPosition } from "../constants/constants";
 // let's create a class to represent a list of projects
 // NOTE: in markup this is not just UL but <section> with different child tags
 
